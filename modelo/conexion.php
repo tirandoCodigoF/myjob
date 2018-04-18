@@ -14,5 +14,4 @@ if($conect->conectar()){
 else {
 	echo"desconectado";
 }
-
  ?>
