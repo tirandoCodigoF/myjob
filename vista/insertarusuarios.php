@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>insertar usuarios</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+<script type="text/javascript" src="js/codigo.js"></script>
+
 </head>
 <body>
 <div class="formularioregistro" align="center">	
