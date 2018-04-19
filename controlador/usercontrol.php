@@ -7,6 +7,11 @@ $obj = new datouser();
 return $obj->insertar($usuario,$pass);
 
 }
+function validar($usuario,$pass){
+	$obj = new datouser();
+return $obj->validar($usuario,$pass);
+
+}
 
 
 }
