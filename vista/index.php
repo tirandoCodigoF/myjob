@@ -16,19 +16,42 @@
 </head>
 <body>
  <div class="contenedor">
-<br>
-      <form  align="center" class="formulario">
+ <div class="toggle" align="center">
+ 	<span>Crear Cuenta</span>
+ </div>	
+      <form  action="#"  align="center" class="formulario">
         <h2 class="form-signin-heading" align="center">Iniciar Sesion</h2>
    <br>
         <input type="text" id="usuario" class="form-control" placeholder="USUARIO:" required autofocus>
-       <br>
+       <br><br>
         <input type="password" id="pass" class="form-control" placeholder="CONTRASEÑA" required>
         <br>
-        <button class="btn btn-lg btn-primary btn-block" type="button">Ingresar</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
       </form>
+
+
+ <div class="formulario">
+ 	<form action="#">
+ 		<input type="text" placeholder="USUARIO" required>
+ 		<br>
+ 		<input type="password" placeholder="CONTRASEÑA" required="">
+ 	<br>
+ 		<input type="submit" value="Registrar">
+
+ 	</form>
+ </div>
+ <br>
+
+<div class="reset-password">
+	<a href="#">Olvide Mi Contraseña</a>
+
+</div>
+
 
     </div> <!-- /contenedor -->
 
+<script src="../js/js/jquery-3.3.1.min.js"></script>    
+    <script src="../js/js/main.js"></script>
 
 </body>
 </html>
