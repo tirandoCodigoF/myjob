@@ -28,5 +28,7 @@
 
 	</form>
 	</div> 
+
+	<div align="center" id="resultado"></div>
 </body>
 </html>

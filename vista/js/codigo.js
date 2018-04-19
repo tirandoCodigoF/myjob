@@ -11,7 +11,12 @@ function enviarDatos(){
 $.ajax({
 	url:"insertar.php",
 	success:function(result){
-		alert(result);
+		if (result == "false") {
+			$("#resultado").html("<br> el registro no se pudo completar");
+
+		}else{
+$("#resultado").html("<br> el registro se ha completado");
+		}
 	},
 	data:{
 		usuario:usuario,
