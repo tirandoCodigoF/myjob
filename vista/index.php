@@ -1,60 +1,63 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<meta http-equiv="Content-Type"  content="text/html"; charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <script type="text/javascript" src="js/code.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/estilos.css">
-	<title>inciar sesion</title>
+	<link rel="stylesheet" href="../css/estilos1.css">
+
+
+	<!-- <a href="index.php"><img class="logo" title="Logo De La Empresa" src="logo/LOGO2.jpg"></a> -->
+	<title>login</title>
 </head>
 <body>
- <div class="contenedor">
+<h1 align="center" title="Nombre De La Empresa">MyJoB.COM</h1>
+
+<div class="contenedor-form" align="center">
+
+<h2 aling="center">Bienvenido</h2>
+<div class="formulario" align="center">
+<h2 aling="center">Iniciar Sesi&oacute;n</h2>
+<form method="post" action="#" autocomplete="off">
+<br>
+<input type="text" name="nombUsuario" id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
+<input type="password" name="pass"  id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
+<br>
+<input type="submit" value="Ingresar">
+</form>
+ </div>
+ <br>
  <div class="toggle" align="center">
  	<span>Crear Cuenta</span>
  </div>	
-      <form  action="#"  align="center" class="formulario">
-        <h2 class="form-signin-heading" align="center">Iniciar Sesion</h2>
-   <br>
-        <input type="text" id="usuario" class="form-control" placeholder="USUARIO:" required autofocus>
-       <br><br>
-        <input type="password" id="pass" class="form-control" placeholder="CONTRASEÑA" required>
-        <br>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-      </form>
-
-
  <div class="formulario">
  	<form action="#">
  		<input type="text" placeholder="USUARIO" required>
  		<br>
  		<input type="password" placeholder="CONTRASEÑA" required="">
- 	<br>
+
+ 		<br>
  		<input type="submit" value="Registrar">
 
  	</form>
  </div>
  <br>
 
+
 <div class="reset-password">
 	<a href="#">Olvide Mi Contraseña</a>
 
+
 </div>
 
-
-    </div> <!-- /contenedor -->
-
-<script src="../js/js/jquery-3.3.1.min.js"></script>    
-    <script src="../js/js/main.js"></script>
-
+</div>
+	<script src="js/js/jquery-3.3.1.min.js"></script>    
+    <script src="js/js/main.js"></script>
 </body>
 </html>
-
-
-
