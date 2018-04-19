@@ -22,7 +22,7 @@
 		<input type="password" align="center" id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:">
 		<br>
 		<br>
-		<input type="button" id="registar" value="Registrar" title="Registrar Usuario" >
+		<input type="button" id="registrar" value="Registrar" title="Registrar Usuario" >
 
 		<!-- </fieldset> -->
 
