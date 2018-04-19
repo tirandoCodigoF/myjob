@@ -20,7 +20,7 @@ mysqli_close($conect);
 }
 
 }
-// $obj = new datouser();
+// $obj = new daqtouser();
 // if($obj->insertar("chanty","12345")){
 // 	echo "registro realizado";//para ejecutar la insercion del usuario y passwor en la base de datos.
 
