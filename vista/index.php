@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     <script type="text/javascript" src="js/code.js"></script>
+     <script type="text/javascript" src="js/codigo.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="../css/estilos1.css">
 
@@ -24,20 +24,21 @@
 <h2 aling="center">Bienvenido</h2>
 <div class="formulario" align="center">
 <h2 aling="center">Iniciar Sesi&oacute;n</h2>
-<form method="post" action="#" autocomplete="off">
+<form method="post" action=" insertarusuarios.php" autocomplete="off">
 <br>
-<input type="text" name="nombUsuario" id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
-<input type="password" name="pass"  id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
+<input type="text"  id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
+<input type="password"  id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
 <br>
-<input type="submit" value="Ingresar">
+<input type="submit" id="ingresar" value="Ingresar">
 </form>
  </div>
+ <div class="mensaje" id="resultado">	</div>
  <br>
  <div class="toggle" align="center">
  	<span>Crear Cuenta</span>
  </div>	
  <div class="formulario">
- 	<form action="#">
+ 	<form action="insertarusuarios.php">
  		<input type="text" placeholder="USUARIO" required>
  		<br>
  		<input type="password" placeholder="CONTRASEÑA" required="">
@@ -45,14 +46,13 @@
  		<br>
  		<input type="submit" value="Registrar">
 
- 	</form>
+ 	<!-- </form> -->
  </div>
  <br>
 
 
 <div class="reset-password">
 	<a href="#">Olvide Mi Contraseña</a>
-
 
 </div>
 
