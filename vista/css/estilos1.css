@@ -100,7 +100,20 @@ h2{
 
 .contenedor-form .toggle span {
     letter-spacing: 3px;
+    color: white;
 }
+.contenedor-form .toggle a{
+     color: #fff;
+    text-decoration: none;
+    font-size: 18px;}
+/*    .contenedor-form .toggle .insertaruser {
+
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}*/
 
 .contenedor-form h2 {
     /*letter-spacing: 2px;*/

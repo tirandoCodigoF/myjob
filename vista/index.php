@@ -35,7 +35,8 @@
  </div>
 
  <div class="toggle"  align="center">
- 	<a href="insertarusuarios.php"><span>Crear Cuenta</span></a>
+ <div class="insertaruser">
+ 	<a href="insertarusuarios.php"><span>Crear Cuenta</span></a></div>
  </div>	
  
  <br>
