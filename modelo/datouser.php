@@ -33,7 +33,9 @@ function validar($usuario,$pass){
 	$consulta = mysqli_query($conect,$sql);
 	$fila = mysqli_fetch_array($consulta);
 	if ($fila>0) {
-		return true;
+		if ($fila["usuario"]==$usuarios->usuario && $fila["password"]==$usuarios->password) {
+			return true;
+		}
 	}else {
 		return false;
 	}

@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     <script type="text/javascript" src="js/codigo.js"></script>
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="js/codigo.js"></script>
 	<link rel="stylesheet" href="../css/estilos1.css">
 
 
@@ -23,8 +24,8 @@
 
 <h2 aling="center">Bienvenido</h2>
 <div class="formulario" align="center">
-<h2 aling="center">Iniciar Sesi&oacute;n</h2>
-<form method="post" action=" insertarusuarios.php" autocomplete="off">
+<h2 aling="center">Iniciar Sesion</h2>
+<form method="post" action="" autocomplete="off">
 <br>
 <input type="text"  id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
 <input type="password"  id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
