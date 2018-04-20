@@ -8,8 +8,8 @@ echo "false";
 	$usuariosCon = new usercontrol();
 	if ($usuariosCon->insertar($_GET["usuario"],$_GET["pass"])) {
 		echo "true";
-// echo $_POST["usuario"]."<br>";
-// echo $_POST["pass"]."<br>";
+// echo $_ GET["usuario"]."<br>";
+// echo $_ GET["pass"]."<br>";
 
 	}else{
 echo "false";

@@ -6,6 +6,6 @@ session_destroy();
 
 echo "<meta http-equiv='refresh' content='0';>";
 echo "<script type='text/javascript'> alert('La Sesion Fue Cerrada Correctamente');
-window.location='index.php';
+window.location='../vista/index.php';
 </script>"
  ?>

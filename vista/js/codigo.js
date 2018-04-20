@@ -2,7 +2,7 @@ $(document).ready(ini);
 
 function ini(){
 $("#registrar").click(enviarDatos);
-$("#ingresar").click(validar);
+$("#ingresar").click(validaruser);
 }
 function enviarDatos(){
     var usuario = $("#usuario").val();
@@ -24,7 +24,7 @@ function enviarDatos(){
         type:"GET"
     });
 }
-function validar(){
+function validaruser(){
     
     var usuario = $("#usuario").val();
     var pass = $("#pass").val();
@@ -33,7 +33,9 @@ function validar(){
         url:"validar.php",
         success:function(result){
             if(result =="true"){
-               document.location.href="admin.php";    
+               document.location.href="../logueo.php";
+               //$("#resultado").html("<div class='alert alert-danger' role='alert'><b>acceso exitoso, </b>Se pudo comprobar el usuario</div>");
+               
             }else{
                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>acceso denegado, </b>no se pudo comprobar el usuario</div>");
             }
