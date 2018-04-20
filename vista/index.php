@@ -33,26 +33,17 @@
 </form>
 <!-- </form> -->
  </div>
- <div class="mensaje" id="resultado">	</div>
- <!-- <br>
- <div class="toggle" align="center">
- 	<span>Crear Cuenta</span>
+
+ <div class="toggle"  align="center">
+ 	<a href="insertarusuarios.php"><span>Crear Cuenta</span></a>
  </div>	
- <div class="formulario">
- 	<form action="insertarusuarios.php">
- 		<input type="text" placeholder="USUARIO" required>
- 		<br>
- 		<input type="password" placeholder="CONTRASEÑA" required="">
-
- 		<br>
- 		<input type="submit" value="Registrar">
-
- 	</form> -->
- </div>
+ 
+ <br>
+  <div class="mensaje" id="resultado">	</div>
  <br>
 
 
-<div class="reset-password">
+<div align="center" class="reset-password">
 	<a href="#">Olvide Mi Contraseña</a>
 
 </div>

@@ -16,15 +16,13 @@
 // window.location='index.php';
 // </script>";
 //}
-
-
 require_once("../clases/clases.php");
 $objClases=new Clases();
 
 $respuesta=$objClases->login($_POST["usuario"],$_POST["pass"]);
 if ($respuesta==1) {
 echo "<link rel='stylesheet' href='css/estilos1.css'>";
-echo"<a href='index.php' ><img class='logo' title='Logo De La Empresa' src='logo/LOGO2.jpg'></a>";
+// echo"<a href='index.php' ><img class='logo' title='Logo De La Empresa' src='logo/LOGO2.jpg'></a>";
 echo "<h1>MyJoB.COM</h1>";	
 echo "<h2 align='center'>Hola Bienvenido</h2>".$_SESSION['sesion_usuario'];
 echo  "<div class='cerrar' align='right'> <form action='../controlador/cerrarsesion.php' autocomplete='off'>

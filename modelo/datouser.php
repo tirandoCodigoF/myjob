@@ -1,6 +1,6 @@
 <?php 
 include("../clases/usuarios.php");
-include("../clases/usercontrolpost");
+// include("../clases/usercontrolpost");
 include ("conexion.php");
 //datos del usuario
 class datouser{
@@ -24,7 +24,7 @@ function validar($usuario,$pass){
 	$conec=new conexion();
 	$conect=$conec->conectar();
 
-	$usuarios= new usuariospost();
+	$usuarios= new usuarios();
 	$usuarios->usuario=$usuario;
 	$usuarios->password=$pass;
 
