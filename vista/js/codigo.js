@@ -33,7 +33,7 @@ function validaruser(){
         url:"validar.php",
         success:function(result){
             if(result =="true"){
-               document.location.href="../logueo.php";
+               document.location.href="logueo.php";
                //$("#resultado").html("<div class='alert alert-danger' role='alert'><b>acceso exitoso, </b>Se pudo comprobar el usuario</div>");
                
             }else{

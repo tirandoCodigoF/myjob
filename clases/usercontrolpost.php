@@ -1,13 +1,13 @@
 <?php 
-class usuarios{
-public $id;	
+class usuariospost{
+public $idUsuario;	
 public $usuario;
 public $password;
 function POST_id(){
-return $this->id;
+return $this->idUsuario;
 }
 function set_id($id){
-	$this->id=$id;
+	$this->idUsuario=$idUsuario;
 }
 
 function POST_usuario(){

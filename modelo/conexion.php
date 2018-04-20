@@ -1,9 +1,8 @@
 <?php 
-session_start();
+// session_start();
 class conexion{
-
 function conectar(){
-$conectar=new mysqli ("localhost","root","");
+$conectar=new mysqli ("localhost","root","","loginorientado");
 return $conectar;  
 }
 

@@ -8,8 +8,8 @@ return $obj->insertar($usuario,$pass);
 
 }
 function validar($usuario,$pass){
-	$obj1 = new datouser();
-return $obj1->validar($usuario,$pass);
+	$obj = new datouser();
+return $obj->validar($usuario,$pass);
 
 }
 

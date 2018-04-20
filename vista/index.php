@@ -11,7 +11,7 @@
      <script type="text/javascript" src="js/codigo.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     
-	<link rel="stylesheet" href="../css/estilos1.css">
+	<link rel="stylesheet" href="css/estilos1.css">
 
 
 	<!-- <a href="index.php"><img class="logo" title="Logo De La Empresa" src="logo/LOGO2.jpg"></a> -->
@@ -26,8 +26,8 @@
 <div class="formulario" align="center " role="form">
 <h2 aling="center">Iniciar Sesion</h2>
 <br>
-<input type="text"  id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
-<input type="password"  id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
+<input type="text"  name="usuario" id="usuario" title="Ingresa tu Usuario" placeholder="USUARIO:" required /></br>
+<input type="password"   name="pass" id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required />
 <br>
 <input type="submit" id="ingresar" value="Ingresar">
 </form>
