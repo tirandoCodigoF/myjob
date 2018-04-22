@@ -12,9 +12,10 @@ function enviarDatos(){
         url:"insertar.php",
         success:function(result){
             if(result =="true"){
-                $("#resultado").html("se ha registrado el usuario correctamente");   
+                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Registro Exitoso, </b>Ahora ya puedes acceder a MyJoB.COM</div>"); 
+                               
             }else{
-                $("#resultado").html("no se ha podido registrar el usuario correctamente");
+                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Fallo El Registro, </b>Intenta Nuevamente</div>");          
             }
         },
         data:{

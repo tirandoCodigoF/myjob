@@ -3,14 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>insertar usuarios</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
-<script type="text/javascript" src="js/codigo.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type"  content="text/html"; charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script type="text/javascript" src="js/codigo.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    
+	<link rel="stylesheet" href="css/insertuser.css">
 
 </head>
 <body>
+<h1 align="center" title="Nombre De La Empresa">MyJoB.COM</h1>
 <div class="formularioregistro" align="center">	
 	<form action="insertar.php" method="post">
-	<h1>Insertar Usuarios</h1>
+	<h1>Registrar Usuarios</h1>
 		<!-- <fieldset> margen o borde en forma de linea -->
 			<!-- <legend><h1>Insertar Usuarios</h1></legend> insertar el texto en medio de las linea -->
 			<br>
@@ -24,11 +34,13 @@
 		<br>
 		<input type="button" id="registrar" value="Registrar" title="Registrar Usuario" >
 
-		<!-- </fieldset> -->
-
 	</form>
+	<br><br>
+	<div align="center" id="resultado"></div>
 	</div> 
 
-	<div align="center" id="resultado"></div>
+	
+	<script src="js/js/jquery-3.3.1.min.js"></script>    
+    <script src="js/js/main.js"></script>
 </body>
 </html>
