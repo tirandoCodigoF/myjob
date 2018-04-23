@@ -30,7 +30,7 @@ h2{
 }
 .formularioregistro{
  background-color:rgba(9, 23, 165, 0.2);
-    max-width: 350px;
+    max-width: 390px;
     width: 100%;
     margin: 5% auto;
     border-radius: 20px;
@@ -40,10 +40,23 @@ h2{
 
 }
 .formularioregistro h1{
+background: linear-gradient(yellow,red);
+-webkit-background-clip: text;
+color: transparent;
 text-align: center;
-color: red;
+/*color: orange;*/
 font-size: 30px;
+font-family: arial, "soberana";
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 
+}
+.formularioregistro h2 {
+    /*letter-spacing: 2px;*/
+    color:white; 
+    margin: 0 0 28px 0;
+    font-size: 35px;
 }
 
 
@@ -51,7 +64,7 @@ font-size: 30px;
 .formularioregistro input[type="password"]{
     outline: none;
     display: block;
-    width: 100%;
+    width: 75%;
     padding: 10px 15px;
     /*margin: 0 0 10px 0;*/
     background: rgba(0,0,0,.5);
@@ -91,4 +104,32 @@ font-size: 30px;
 background: #FF851B;
 }
 
+.formularioregistro .toggle {
+    /*color: red;*/
+    position: center;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    cursor: pointer;
+    transition: all .5s ease;
+}
 
+.formularioregistro .toggle:hover {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right:2px solid orange;
+}
+
+.formularioregistro .toggle span {
+    letter-spacing: 3px;
+    color: white;
+}
+.formularioregistro .toggle a{
+     color: #fff;
+    text-decoration: none;
+    font-size: 18px;}

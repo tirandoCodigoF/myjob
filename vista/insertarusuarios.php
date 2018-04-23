@@ -20,27 +20,38 @@
 <h1 align="center" title="Nombre De La Empresa">MyJoB.COM</h1>
 <div class="formularioregistro" align="center">	
 	<form action="insertar.php" method="post">
+	<h2 aling="center">Bienvenido</h2>
+	<br>
 	<h1>Registrar Usuarios</h1>
 		<!-- <fieldset> margen o borde en forma de linea -->
 			<!-- <legend><h1>Insertar Usuarios</h1></legend> insertar el texto en medio de las linea -->
-			<br>
+			
+			<br><br>
 			<!-- <label>Usuario: </label> -->
 		<input type="text" align="center" id="usuario"  title="Ingresa tu Usuario" placeholder="USUARIO:">
-		<br>
 		<br>
 		<!-- <label>Contraseña: </label> -->
 		<input type="password" align="center" id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:">
 		<br>
-		<br>
+		
 		<input type="button" id="registrar" value="Registrar" title="Registrar Usuario" >
 
 	</form>
-	<br><br>
+	<br>
+	<br>
 	<div align="center" id="resultado"></div>
+<br>
+<div class="toggle"  align="center">
+ <div class="insertaruser">
+ 	<a href="index.php"><span>Iniciar Sesion</span></a></div>
+ </div>
+ <br>
+
 	</div> 
 
 	
 	<script src="js/js/jquery-3.3.1.min.js"></script>    
     <script src="js/js/main.js"></script>
 </body>
+
 </html>
