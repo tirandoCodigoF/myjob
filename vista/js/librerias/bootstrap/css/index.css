@@ -1,0 +1,78 @@
+
+body{
+	background-image: url(../a.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial;
+}
+h1 {
+    color: #F60;
+    margin: 0.25em auto;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+    font-size: 60px;
+}
+h2{
+
+    color:#fff; 
+    margin:0.50em auto;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+}
+.contenedor-principal {
+    background-color:rgba(142, 68, 173 ,0.2);
+    max-width: 300px;
+    width: 100%;
+    margin: 100px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    /*padding: 40px;*/
+}
+.contenedor-principal .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.contenedor-principal .formulario:nth-child(2) {
+    display: block;
+}
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-principal input[type="text"]:focus,
+.contenedor-principal input[type="password"]:focus,
+.contenedor-principal input[type="email"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-principal input[type="submit"] {
+     color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+/* aplica cambio de color del boton al colocar el mouse*/
+.contenedor-principal input[type="submit"]:hover {
+    background: rgba(102, 255, 102, 0.5);
+}

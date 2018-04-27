@@ -8,6 +8,7 @@
 	<meta http-equiv="Content-Type"  content="text/html"; charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  	<script src="js/librerias/ajax/jquery-3.3.1.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <script type="text/javascript" src="js/codigo.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -28,13 +29,13 @@
 			
 			<br><br>
 			<!-- <label>Usuario: </label> -->
-		<input type="text" align="center" id="usuario"  title="Ingresa tu Usuario" placeholder="USUARIO:">
+		<input type="text" align="center" id="usuario"  title="Ingresa tu Usuario" placeholder="USUARIO:" required>
 		<br>
 		<!-- <label>Contraseña: </label> -->
-		<input type="password" align="center" id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:">
+		<input type="password" align="center" id="pass" title="Ingresa tu Contraseña" placeholder="CONTRASEÑA:" required>
 		<br>
 		
-		<input type="button" id="registrar" value="Registrar" title="Registrar Usuario" >
+		<input type="button" id="registrar"  value="Registrar" title="Registrar Usuario" required >
 
 	</form>
 	<br>
@@ -48,8 +49,6 @@
  <br>
 
 	</div> 
-
-	
 	<script src="js/js/jquery-3.3.1.min.js"></script>    
     <script src="js/js/main.js"></script>
 </body>

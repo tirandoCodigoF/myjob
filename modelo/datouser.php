@@ -11,9 +11,10 @@ $usuarios = new usuarios();
 $usuarios->usuario = $usuario;
 $usuarios->password = $pass;
 mysqli_select_db($conect,"loginorientado");
+
 $sql=" INSERT INTO usuarios (usuario,password) VALUES ('".$usuarios->usuario."','".$usuarios->password."')";
 if (mysqli_query($conect,$sql)){
-	return true;
+	return true;                  
 }else{
 return false;
 }
@@ -33,8 +34,8 @@ function validar($usuario,$pass){
 	$sql= "SELECT * FROM usuarios WHERE usuario='".$usuarios->usuario."' add password='".$usuarios->password."'";
 	$consulta = mysqli_query($conect,$sql);
 	$fila = mysqli_fetch_array($consulta);
-	if ($fila>0) {
-		if ($fila["usuario"]==$usuarios->usuario && $fila["password"]==$usuarios->password) {
+	if ($fila > 0) {
+		if ($fila["usuario"]== $usuarios->usuario && $fila["password"]==$usuarios->password) {
 			return true;
 		}
 	}else {

@@ -196,6 +196,6 @@ background: #FF851B;
     padding: 40px;
 }
 
-.contenedor-form .formulario:nth-child(2) {
+.contenedor-form .formulario:nth-child(2){
     display: block;
 }
