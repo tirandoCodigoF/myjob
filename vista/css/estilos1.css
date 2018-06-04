@@ -77,9 +77,9 @@ margin:0.80em;
 h1 {
    color:white ;
     /*color: rgba(2, 12, 0 , 0.);*/
-    margin: 0.70em auto;
+    margin: 0.15em auto;
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.9);
+    text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.5);
     font-size: 8vh;
 
 }
@@ -94,9 +94,9 @@ h2{
 h3{
 
     color:#fff; 
-    margin:0.80em;
+    margin:0.50em;
     text-shadow: 7px 7px 10px rgba(255, 255, 255, 0.7);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h5{
@@ -113,10 +113,10 @@ h5{
 
     background-color:rgba(9, 23, 165, 0.4);
     /*background-color:rgba(237, 233, 240 ,0.5);*/
-
-    max-width: 430px;
+ max-width: 370px;
+ /*text-align: center;*/
     width: 100%;
-    margin: 50px auto;
+    margin: 30px auto;
     border-radius: 20px;
     color: #fff;
     position: relative;
@@ -126,8 +126,8 @@ h5{
 .contenedor-form .toggle {
     /*color: red;*/
     position: center;
-    width: 50%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 18px;
     text-align: center;
     border-top: 4px solid black;
     border-bottom: 2px solid black;
@@ -175,7 +175,7 @@ h5{
     outline: none;
     display: block;
     width: 100%;
-    padding: 10px 15px;
+    padding: 10px 10px;
     /*margin: 0 0 10px 0;*/
     background: rgba(0,0,0,.5);
     color: #fff;
@@ -184,7 +184,7 @@ h5{
     border-bottom: 4px solid #ff851b;
     box-sizing: border-box;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-weight:normal;
     transition: all .5s ease;
 }
@@ -232,7 +232,7 @@ background: #FF851B;
 
 .contenedor-form .formulario {
     display: none;
-    padding: 40px;
+    padding: 30px;
 }
 
 .contenedor-form .formulario:nth-child(2){

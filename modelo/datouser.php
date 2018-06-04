@@ -31,7 +31,7 @@ function validar($usuario,$pass){
 
 	mysqli_select_db($conect,"loginorientado");
 
-	$sql= "SELECT * FROM usuarios WHERE usuario='".$usuarios->usuario."' add password='".MD5($usuarios)->password."'";
+	$sql= "SELECT * FROM usuarios WHERE usuario='".$usuarios->usuario."' add password='".MD5($usuarios->password)."'";
 	$consulta = mysqli_query($conect,$sql);
 	$fila = mysqli_fetch_array($consulta);
 	if ($fila > 0) {
