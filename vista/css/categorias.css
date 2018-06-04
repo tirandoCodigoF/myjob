@@ -98,10 +98,10 @@ background: red;
 h1 {
    color:white ;
     /*color: rgba(2, 12, 0 , 0.);*/
-    margin: 0.50em auto;
+    margin: 0.20em auto;
 
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.9);
+    text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.5);
     font-size: 8vh;
 
 }

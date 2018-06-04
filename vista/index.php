@@ -19,7 +19,7 @@
 	<title>login</title>
 </head>
 <body>
-<h1 align="center" title="Nombre De La Empresa"><b><i>MyJoB.COM</i></b></h1>
+<h1 align="center" title="Nombre De La Empresa"><b>MyJoB.COM</b></h1>
 <h3 align="center">Bienvenido</h3>
 <div class="contenedor-form" align="center">
 <form action="logueo.php" method="post">
