@@ -18,7 +18,7 @@ if (mysqli_query($conect,$sql)){
 }else{
 return false;
 }
-mysqli_close($conect);
+// mysqli_close($conect);
 }
 
 function validar($usuario,$pass){
@@ -44,10 +44,5 @@ function validar($usuario,$pass){
 }
 
 }
-// $obj = new daqtouser();
-// if($obj->insertar("chanty","12345")){
-// 	echo "registro realizado";//para ejecutar la insercion del usuario y passwor en la base de datos.
-
-// }
 
  ?>

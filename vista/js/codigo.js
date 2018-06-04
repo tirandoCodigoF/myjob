@@ -9,21 +9,21 @@ function enviarDatos(){
     var pass = $("#pass").val();
     
     $.ajax({
-        url:"insertar.php",
-        success:function(result){
-            if(result =="true"){
-                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Registro Exitoso, </b>Ahora ya puedes acceder a MyJoB.COM</div>"); 
+        url: "insertar.php",
+    //    success:function(result){
+    //         if(result =="true"){
+    //              $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Registro Exitoso, </b>Ahora ya puedes acceder a MyJoB.COM</div>"); 
                                
-            }else{
-                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Fallo El Registro, </b>Verifica Tu Usuario y Contraseña</div>");          
-            }
-        },
-        data:{
-            usuario:usuario,
-            pass:pass
-        },
-        type:"GET"
-    });
+    //         }else{
+    //              $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Fallo El Registro, </b>Verifica Tu Usuario y Contraseña</div>");          
+    //         }
+    //     },
+    //     data:{
+    //         usuario:usuario,
+    //         pass:pass
+    //     },
+    //     type:"GET"
+    // });
 }
 function validaruser(){
     

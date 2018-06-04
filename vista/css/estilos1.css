@@ -8,10 +8,33 @@
 
 
 body {
+    /*color:red;*/
     background: url(../img/imagen.jpg);
+                /*background: rgba(111, 54, 140,0.9);*/
+    /*background-color:rgba(204, 200, 206 ,.5);*/
+    /*max-width:100%;*/
+
     background-size: cover;
+    /*background-position: center;*/
     background-attachment: fixed;
     font-family: Roboto;
+
+}
+.menu{
+/*background: red;*/
+
+margin:0.80em;
+     position: absolute;
+    top: 7px;
+    right: 125px;
+   
+    /*width: 100px;*/
+    /*height: 10px;*/
+    font-size: 4px;
+    /*line-height: 15px;*/
+    text-align: center;
+
+
 
 }
 .logo{
@@ -42,22 +65,23 @@ color:red;
 margin:0.80em;
      position: absolute;
     top: 7px;
-    right: 100px;
+   right: 10px;
     width: 100px;
     height: 30px;
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 30px;
     text-align: center;
 
 }
 
 h1 {
-   
-    color: pink;
-    margin: 0.40em auto;
+   color:white ;
+    /*color: rgba(2, 12, 0 , 0.);*/
+    margin: 0.70em auto;
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
-    font-size: 60px;
+    text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.9);
+    font-size: 8vh;
+
 }
 h2{
 
@@ -66,15 +90,37 @@ h2{
     text-shadow: 7px 7px 10px rgba(255, 255, 255, 0.7);
     font-size: 30px;
 }
+
+h3{
+
+    color:#fff; 
+    margin:0.80em;
+    text-shadow: 7px 7px 10px rgba(255, 255, 255, 0.7);
+    font-size: 30px;
+}
+
+h5{
+
+    color:#fff; 
+    margin:0.80em;
+    text-shadow: 7px 7px 10px rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+  
+}
+
+
 .contenedor-form {
-    background-color:rgba(9, 23, 165, 0.2);
-    max-width: 390px;
+
+    background-color:rgba(9, 23, 165, 0.4);
+    /*background-color:rgba(237, 233, 240 ,0.5);*/
+
+    max-width: 430px;
     width: 100%;
     margin: 50px auto;
     border-radius: 20px;
     color: #fff;
     position: relative;
-    padding: 10px 45px;
+    padding: 40px 60px;
 }
 
 .contenedor-form .toggle {
@@ -83,16 +129,16 @@ h2{
     width: 50%;
     font-size: 20px;
     text-align: center;
-    border-top: 2px solid black;
+    border-top: 4px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
     cursor: pointer;
-    transition: all .5s ease;
+    transition: all .6s ease;
 }
 
 .contenedor-form .toggle:hover {
-    border-top: 2px solid orange;
+    border-top: 4px solid orange;
     border-bottom: 2px solid orange;
     border-left: 2px solid orange;
     border-right:2px solid orange;
@@ -106,19 +152,12 @@ h2{
      color: #fff;
     text-decoration: none;
     font-size: 18px;}
-/*    .contenedor-form .toggle .insertaruser {
 
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}*/
 
 .contenedor-form h2 {
     /*letter-spacing: 2px;*/
     color:white; 
-    margin: 0 0 28px 0;
+    margin: 0 0 0px 0;
     font-size: 35px;
 }
 
