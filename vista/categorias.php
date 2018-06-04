@@ -55,6 +55,7 @@ include "../controlador/seguridad.php";
 
 
 </div>
-	
+	<script src="js/js/jquery-3.3.1.min.js"></script>    
+    <script src="js/js/main.js"></script>
 </body>
 </html>
