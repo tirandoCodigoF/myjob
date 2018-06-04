@@ -98,7 +98,8 @@ background: red;
 h1 {
    color:white ;
     /*color: rgba(2, 12, 0 , 0.);*/
-    margin: 0.70em auto;
+    margin: 0.50em auto;
+
     text-align: center;
     text-shadow: 5px 5px 10px rgba(237, 75, 23 , 0.9);
     font-size: 8vh;
@@ -116,8 +117,8 @@ h3{
 text-align: center;
     color:red; 
     margin:0.80em;
-    text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
+    /*text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);*/
+    font-size: 50px;
 }
 
 h5{
@@ -138,13 +139,14 @@ h5{
     /*background-color:rgba(237, 233, 240 ,0.5);*/
 /*background: linear-gradient(to bottom, rgba(107,77,224,1) 0%, rgba(107,77,224,1) 43%, rgba(224,126,247,1) 89%, rgba(242,133,250,1) 96%);*/
 background: linear-gradient(to bottom, rgba(79,19,190,.4) 0%, rgba(79,19,190,.5) 50%, rgba(228,7,169,.5) 96%, rgba(213,7,158,.9) 100%);
-    max-width: 500px;
+    max-width: 520px;
     width: 100%;
+    left: 30px;
     margin: 20px auto;
-    border-radius: 40px;
+    border-radius: 20px;
     color: black;
     position: relative;
-    padding: 40px 60px;
+    padding: 1px 15px;
 }
 
 .contenedor-form input[type="submit"] {
@@ -152,14 +154,14 @@ background: linear-gradient(to bottom, rgba(79,19,190,.4) 0%, rgba(79,19,190,.5)
    /*background: rgba(0, 117, 217, 0.6);*/
    /*background: linear-gradient(to right, rgba(60,68,158,.5) 0%, rgba(60,68,158,.5) 33%, rgba(36,33,228,1) 92%, rgba(36,33,228,1) 100%);*/
     /*background: linear-gradient(to bottom, rgba(5,5,5,.5) 0%, rgba(0,0,0,.8) 3%, rgba(43,43,43,1) 12%, rgba(0,0,0,1) 28%, rgba(41,41,41,1) 51%, rgba(5,5,5,.8) 56%, rgba(17,17,17,.8) 60%, rgba(0,0,0,.8) 76%, rgba(28,28,28,.8) 91%, rgba(19,19,19,.5) 100%);*/
-    background: black;
-    color: #fff;
+    background: white;
+    color: black;
 
     /*background: black;*/
-border-radius: 40px;
-    width: 80%;
+border-radius: 8px;
+    width: 50%;
     border: none;
-    padding: 7px 50px;
+    padding: 13px 30px;
     font-size: 25px;
     font-weight: normal;
     font-family: Roboto;

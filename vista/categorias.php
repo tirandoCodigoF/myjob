@@ -1,10 +1,5 @@
 <?php
-// require_once("../clases/clases.php");
-
-// $objClases=new Clases();
-
-// $respuesta=$objClases->login($_POST["usuario"],$_POST["pass"]);
-// if ($respuesta==1) {
+include "../controlador/seguridad.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +26,7 @@
 <h2 align="center">EMPLEOS DISPONIBLES</h2>
 
 
-<h3 align="center">CATEGORIAS</h3>
+<h3 align="center"><b>CATEGORIAS</b></h3>
 <br>
 <br>
 <form action="Profesiones.php">
@@ -60,18 +55,6 @@
 
 
 </div>
-
-
-
 	
 </body>
-</html> <?php
-// }else{
-
-// echo "<script type='text/javascript'> alert('No has iniciado sesion');
-// window.location='index.php';
-// </script>";
-// }
-
-
- ?>
+</html>

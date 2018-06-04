@@ -23,7 +23,7 @@ function enviarDatos(){
     //         pass:pass
     //     },
     //     type:"GET"
-    // });
+    });
 }
 function validaruser(){
     

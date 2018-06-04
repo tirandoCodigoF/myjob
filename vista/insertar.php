@@ -16,10 +16,12 @@ window.location='index.php';
 echo "<script type='text/javascript'> alert('El Usuario Ya existe, Intenta Con Uno Nuevo');
 window.location='index.php';
 </script>";
+// return false;
 
 	}
 	}
 }else{
+	// return false;
 	// echo "false";
 }
 

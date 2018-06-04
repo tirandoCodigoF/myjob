@@ -51,9 +51,9 @@
 
  	</form>
  </div>
-
-  <div class="mensaje" id="resultado">	</div>
 <br>
+<br>
+  <div class="mensaje" id="resultado">	</div>
 <!-- <div align="center" class="reset-password">
 	<a href="#">Olvide Mi Contraseña</a>
 
