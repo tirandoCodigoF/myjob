@@ -41,12 +41,9 @@ include "../controlador/seguridad.php";
 <br>
 <form action="Otros.php">
 	<input type="submit" name="Otros" id="Otros" value="Otros">
-
 </form>
 <br>
-
-
-
+<br>
 </div>
 
 	

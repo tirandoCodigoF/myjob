@@ -14,12 +14,23 @@
     
 	<link rel="stylesheet" href="css/estilos1.css">
 
-	<title>Document</title>
+	<title>modulo profesiones</title>
 </head>
 <body>
 <h1>modulo 3 sitio en construccion</h1>
 	
+<div class="container">
+<div class="menu">
+	<tr><td align="right" colspan="8"><a href="modal.php"><button class="btn btn-info">Registrar Empleo</button> </a> </td></tr>
 
+</div>
+	<div class="contenedor-form">
+		
+
+	</div>
+
+
+</div>
 
 
 
